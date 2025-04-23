@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapW.Estrutura.Model", "FiapW.Estrutura.Model\FiapW.Estrutura.Model.csproj", "{0DCC38A1-A436-4B67-91DA-E7A9BCFDBC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapW.Estrutura.UI", "FiapW.Estrutura.UI\FiapW.Estrutura.UI.csproj", "{71A72370-D73B-4203-B13E-C3E6EE02930A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DCC38A1-A436-4B67-91DA-E7A9BCFDBC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCC38A1-A436-4B67-91DA-E7A9BCFDBC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCC38A1-A436-4B67-91DA-E7A9BCFDBC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCC38A1-A436-4B67-91DA-E7A9BCFDBC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A72370-D73B-4203-B13E-C3E6EE02930A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A72370-D73B-4203-B13E-C3E6EE02930A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A72370-D73B-4203-B13E-C3E6EE02930A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A72370-D73B-4203-B13E-C3E6EE02930A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5A04B51-FD54-4613-B75E-858B7CCA5E9D}
+	EndGlobalSection
+EndGlobal
