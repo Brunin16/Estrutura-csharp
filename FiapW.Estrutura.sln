@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapW.Estrutura.Model", "FiapW.Estrutura.Model\FiapW.Estrutura.Model.csproj", "{0DCC38A1-A436-4B67-91DA-E7A9BCFDBC23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapW.Estrutura.Model", "FiapW.Estrutura.Model\FiapW.Estrutura.Model.csproj", "{0DCC38A1-A436-4B67-91DA-E7A9BCFDBC23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapW.Estrutura.UI", "FiapW.Estrutura.UI\FiapW.Estrutura.UI.csproj", "{71A72370-D73B-4203-B13E-C3E6EE02930A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiapW.Estrutura.UI", "FiapW.Estrutura.UI\FiapW.Estrutura.UI.csproj", "{71A72370-D73B-4203-B13E-C3E6EE02930A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapW.Estrutura.Controller", "FiapW.Estrutura.Controller\FiapW.Estrutura.Controller.csproj", "{4E51ADED-33D4-4ECB-A615-A9A2B6FEA0DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiapW.Estrutura.Repository", "FiapW.Estrutura.Repository\FiapW.Estrutura.Repository.csproj", "{3BD4A32E-75FB-4457-967A-5E700535349F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{71A72370-D73B-4203-B13E-C3E6EE02930A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A72370-D73B-4203-B13E-C3E6EE02930A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A72370-D73B-4203-B13E-C3E6EE02930A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E51ADED-33D4-4ECB-A615-A9A2B6FEA0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E51ADED-33D4-4ECB-A615-A9A2B6FEA0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E51ADED-33D4-4ECB-A615-A9A2B6FEA0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E51ADED-33D4-4ECB-A615-A9A2B6FEA0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD4A32E-75FB-4457-967A-5E700535349F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD4A32E-75FB-4457-967A-5E700535349F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD4A32E-75FB-4457-967A-5E700535349F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD4A32E-75FB-4457-967A-5E700535349F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
