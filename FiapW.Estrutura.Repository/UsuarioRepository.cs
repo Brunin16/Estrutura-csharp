@@ -16,7 +16,7 @@ namespace FiapW.Estrutura.Repository
         {
             using (OracleConnection conexao = new OracleConnection(_connectionString))
             {
-                
+                conexao.Open();
             }
             return false;
         }
