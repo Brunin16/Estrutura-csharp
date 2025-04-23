@@ -10,4 +10,8 @@
     <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.8.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FiapW.Estrutura.Repository\FiapW.Estrutura.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

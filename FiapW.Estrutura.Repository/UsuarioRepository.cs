@@ -17,6 +17,18 @@ namespace FiapW.Estrutura.Repository
             using (OracleConnection conexao = new OracleConnection(_connectionString))
             {
                 conexao.Open();
+                string query = $"select count(1) from Usuarios_FIAP where NomeUsuario = '{usuario}' and senha = '{senha}'";
+                OracleCommand cmd = new OracleCommand(query, conexao);
+
+                object retorno = cmd.ExecuteScalar();
+
+                if (int.Parse(retorno.ToString()) != 0) { 
+                return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
             return false;
         }

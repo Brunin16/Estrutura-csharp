@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FiapW.Estrutura.Controller\FiapW.Estrutura.Controller.csproj" />
     <ProjectReference Include="..\FiapW.Estrutura.Model\FiapW.Estrutura.Model.csproj" />
   </ItemGroup>
 
