@@ -10,7 +10,7 @@ namespace FiapW.Estrutura.Repository
 {
     public class UsuarioRepository
     {
-        private readonly string _connectionString = "User Id=rm558303;Password=fiap25;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=oracle.fiap.com.br)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ORCL)));";
+        private readonly string _connectionString = "User Id=rmxxxxx;Password=xxxx;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=oracle.fiap.com.br)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ORCL)));";
     
         public bool validarUsuario(string usuario, string senha)
         {
